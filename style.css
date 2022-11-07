@@ -1,0 +1,177 @@
+body{
+    font-size: 18px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+   
+
+}
+
+
+.navbar{
+    background-color: white;
+    width: 100vw;
+}
+.navbar img{
+    margin-left: 60px;
+}
+
+.navbar .btn{
+    width: 150px;
+    margin-right: 200px;
+    border-radius: 80px;
+    border: none;
+    background-image: linear-gradient(to right, hsl(148, 93%, 53%) ,hsl(195, 91%, 52%) );
+    /* background-image: linear-gradient(to bottom, hsl(234, 17%, 12%) , hsl(300, 31%, 7%)); */
+    font-size: 15px;
+    color: white;
+}
+
+.image{
+    background-image: url(./images/bg-intro-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: 20px;
+    width: 700px;
+    height: 500px;
+    margin: -150px 0px 0px 720px;
+    overflow-wrap: hidden;
+  
+} 
+
+.image img{
+    width: 650px;
+    margin: 10px 0px 0px 50px;
+}
+
+
+.aside{
+    margin: 0px 0px 0px 100px;
+    position: absolute;
+    top: 100px;
+
+}
+
+.aside .btn{
+    width: 150px;
+    margin-right: 200px;
+    border-radius: 80px;
+    border: none;
+    background-image: linear-gradient(to right, hsl(148, 93%, 53%) ,hsl(195, 91%, 52%) );
+    font-size: 15px;
+    color: white;
+}
+
+.aside p{
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+.aside2{
+    margin-left: 100px;
+    margin-top: 200px;
+
+}
+
+.content{
+    margin: 200px 0px 0px 75px;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 50px;
+
+}
+
+.content .card{
+    border: none; 
+}
+
+.content .card img{
+    width: 70px;
+    padding-bottom: 30px;
+}
+
+
+.title{
+    margin-left: 80px;
+}
+
+.photo{
+    margin-left: 70px;
+    display: flex;
+    background-color: white;
+}
+.photo img{
+    width: 270px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px;
+    margin-top: 50px;
+   
+}
+
+
+.each{
+ margin: 30px 0px 0px 30px ;
+}
+.photo-content .by{
+    font-size:  12px;
+}
+
+.photo-content .ctn{
+    font-size: 25px;
+}
+
+.photo-content .ctn:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100vw;
+    height: 170px;
+    background-color: rgb(4, 4, 35);
+  
+}
+
+
+.footer .row{
+    padding: 30px 0px 0px 50px;
+    display: flex;
+    overflow: hidden;
+    
+}
+.footer .col1 .icon{
+    padding-top: 50px;
+
+
+}
+
+.footer .col2{
+    margin: -100px 0px 0px 300px;
+    cursor: pointer;
+    color: white;
+    
+}
+.footer .col3{
+    margin: -120px 0px 0px 500px;
+    cursor: pointer;
+    color: white;
+
+}
+.footer .col4{
+    margin: -120px 0px 0px 900px;
+    cursor: pointer;
+    color: white;
+    justify-content: right;
+    
+}
+
+.footer .col4 .btn{
+    width: 150px;
+    border-radius: 80px;
+    border: none;
+    background-image: linear-gradient(to right, hsl(148, 93%, 53%) ,hsl(195, 91%, 52%) );
+    font-size: 15px;
+    color: white;
+    margin: 30px 0px 20px 70px ;
+}
